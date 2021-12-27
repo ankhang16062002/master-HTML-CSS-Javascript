@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h2 {
+    position: relative;
+    top: 300px;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 4;
+}
+
+section {
+    background: url('./img/kirixi.png');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    clip-path: circle(0px at center);
+}
+
+.container {
+    position: relative;
+    padding: 100px;
+    margin-top: 200vh;
+    background-color: wheat;
+}
+
+.container > h2{
+    font-size: 2rem;
+    margin-bottom: 200px;
+    top: 0;
+}
+
+.container p {
+    font-size: 30px;
+}
